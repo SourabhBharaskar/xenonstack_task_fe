@@ -1,0 +1,329 @@
+#search{
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+    background-color: black;
+    padding-top: 20px;
+  }
+  .mat-icon{
+    /* margin-right: 10px; */
+    /* border: 1px solid; */
+    /* width: 35px; */
+    position: relative;
+    top: 4px;
+    /* left: -10px; */
+    /* color: rgb(8, 20, 30); */
+  }
+  
+  #subscribe{
+    position: absolute;
+    bottom: 5px;
+    left: 105px;
+    font-size: 9px;
+    color: rgb(46, 40, 40);
+    /* border: 2px dashed; */
+    background-color: rgb(135, 135, 216);
+    padding: 0px 10px ;
+    height: fit-content;
+    line-height: 15px;
+    border-radius: 25px;
+    font-style: italic;
+    font-family: cursive;
+  }
+  #subscribe:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4);
+    background-color: red;
+    cursor: pointer;
+  
+  }
+  
+  /* .mat-icon mat-icon{
+    position: relative;
+    left: 1px;
+  } */
+  
+  
+  #logo{
+    cursor: pointer;
+    position: relative;
+    top: 6px;
+    margin-right: 0px;
+  
+  }
+  
+  #logo1{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: Aclonica;
+    font-size: 90%;
+    /* margin-top: 7%; */
+    /* color: white; */
+    
+  }
+  #prof{
+    font-size: 10px;
+  }
+  
+  #profcont #fav:hover mat-icon {
+    color: rgb(245, 216, 26);
+  }
+  #profcont #home:hover mat-icon {
+    color: rgb(128, 48, 232);
+  }
+  #profcont #person:hover mat-icon {
+    color: rgb(238, 234, 244);
+  }
+  
+  #profile:hover {
+    box-shadow: 0 6px 20px 0  rgba(124, 235, 255, 0.8);
+  }
+  #profile{
+    /* background-image: url("../resource/profile.jpg"); */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* border: 2px solid; */
+    /* background-size: 50px; */
+    align-self: center;
+    border-radius: 50%;
+    box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.4);
+    /* margin-right: 20px; */
+  }
+  .sidenav-container{
+    border: 2px solid;
+    background-color: rgb(115, 85, 163);
+
+  }
+  
+  #name strong{
+    font-family: Comic Sans MS;
+    font-size: 12px;
+  
+  }
+  #name small{
+    font-size: 11px;
+  }
+  
+  #profcont{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    /* margin-right: 20px; */
+  align-items: center;
+  justify-content: flex-end;
+  
+    /* padding: 0%; */
+    margin-right: 20px;
+    /* padding-right: 10px; */
+    
+  }
+  
+  #person{
+    size: 50x;
+    display: flex;
+    flex-flow: column nowrap;
+    /* margin-right: 50px; */
+  }
+  #right-one{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+  }
+  mat-sidenav-content{
+    overflow: hidden;
+  }
+  
+  .mat-icon{
+    text-align: center;
+    position: relative;
+    top: -3px;
+    left: -3px;
+    margin-right: 5%;
+  }
+  
+  #container{
+    display: flex;
+    flex-flow: row nowrap ;
+    /* border : 2px solid; */
+    /* justify-content: space-between; */
+    width: 80%;
+    /* align-items: center; */
+    height: fit-content;
+    margin-left: 15%;
+    /* padding: 0px */
+    /* position: relative; */
+    /* top: 100px; */
+    /* z-index: 10; */
+  }
+  
+  #toolkit{
+    /* border: 1px solid red; */
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(198, 227, 240);
+    /* right: 10px; */
+    left: 87%;
+    opacity: 1;
+    padding: 5px 10px 5px 10px;
+    
+    /* top: 50px;
+    left: -80px; */
+    width: fit-content;
+      padding: 10px;
+    text-align: center;
+    /* z-index: 3; */
+  }
+  #logo mat-icon:hover{
+    color: red;
+  }
+  #start{
+    display: flex;
+    flex-flow: row nowrap;
+    /* border: 2px solid red; */
+    /* justify-content: space-between; */
+  
+  }
+  #middle a{
+    text-decoration: none;
+    color: white;
+    padding : 10px;
+    height: 150%;
+    /* margin-right: 15px; */
+    /* border-left: 1px solid gray;
+    border-right: 1px solid gray; */
+    /* border: 2px solid red; */
+    font-size: 14px;
+    font-family: cursive;
+    font-style: italic;
+    margin-bottom: 15px;
+    padding-top: 15px;
+  
+    /* align-items: center; */
+  
+  
+  }
+  #middle a:hover{
+    background-color: rgb(154, 130, 217);
+  }
+  #middle{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+  }
+  #toolkitcontainer{
+      position: absolute;
+      right: 8.6%;
+      top: 70px;
+      z-index: 2;
+      opacity: 0.9;
+      
+  }
+  #toolkit p{
+    margin: 0px 10px;
+  }
+  #toolkit a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    /* border: 2px solid; */
+    width: 100%;
+    display: block;
+    height: 30px;
+  }
+  
+  #toolkit a:hover{
+    background-color: gray;
+    color : white;
+  }
+  
+  #toolkit::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(198, 227, 240);
+    rotate: 45deg;
+    left: 65%;
+  }
+  
+  #logout{
+    /* background-color: rgb(192, 53, 53); */
+    border-radius: 20px;
+    margin-top: 3px;
+    font-size: 12px;
+  
+  }
+  .sidenav .mat-toolbar {
+    background: inherit;
+  }
+  
+  .mat-toolbar.mat-primary {
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+  }
+  
+  
+  
+  
+  
+  
+  #navstart{
+    align-self:flex-end;
+    height: 100%;
+    /* border: 2px solid green; */
+  }
+  
+  .navcomponent{
+    margin-bottom: 15%;
+    cursor: pointer;
+    font-family: cursive;
+    font-weight: 500;
+    width: fit-content;
+    /* justify-content: center; */
+    /* align-self: center; */
+    /* justify-self: center; */
+    align-self: center;
+    /* padding: 2px; */
+    /* border: 1px solid; */
+  }x
+  
+  .topnav{
+    /* position: relative; */
+    background-color: rgb(115, 85, 163);
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.9);
+    /* z-index: inherit; */
+    /* border: 2px solid; */
+    /* border-radius: 30px; */
+   
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    #logo{
+      margin-right: 0px;
+    }
+    #logo1{
+      font-size: 80%;
+      /* border: 2px solid red; */
+    }
+    mat-icon{
+      /* font-size: ; */
+      margin: 0px;
+    }
+    #person{
+      margin: 0px;
+    }
+    #profcont{
+      /* margin: 0px; */
+      /* border: 2px solid green; */
+      margin-right: 2%;
+  
+    }
+  }

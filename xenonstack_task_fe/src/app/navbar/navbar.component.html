@@ -1,0 +1,52 @@
+<mat-sidenav-container class="sidenav-container">
+  
+    <mat-sidenav-content>
+      <mat-toolbar class="topnav">
+        <div id="start">
+          <div id="logo">
+            <mat-icon fontIcon="play_circle_filled"></mat-icon>
+          </div>
+          <a routerLink="/dashboard" id="logo1">Muzix-App</a>
+        </div>
+           
+  
+        <section id="container">
+  
+          <section id="middle">
+              <a routerLink="">Movies</a>
+              <a routerLink="">Subscriptions</a>
+              <a routerLink="/contact-us">ContactUs</a>
+          </section>
+         
+          <div id="profcont">
+            <div id="right-one">
+  
+  
+              <a routerLink="/home" class="mat-icon" id="home" mat-icon-button>
+                <mat-icon fontIcon="home"> </mat-icon>
+              </a>
+              <a routerLink="" class="mat-icon" id="fav" mat-icon-button>
+                <mat-icon fontIcon="star"> </mat-icon>
+              </a>
+              <a routerLink="" class="mat-icon" id="person" mat-icon-button>
+                <mat-icon fontIcon="person"> </mat-icon>
+              </a>
+              
+  
+              <ng-template #loggedIn>
+                <a routerLink="/login" mat-raised-button>Login</a>
+              </ng-template>
+            </div>
+          </div>
+  
+  
+        </section>
+  
+  
+      </mat-toolbar>
+      
+    </mat-sidenav-content>
+  
+  </mat-sidenav-container>
+  
+  <router-outlet></router-outlet>

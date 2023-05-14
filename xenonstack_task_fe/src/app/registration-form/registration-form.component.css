@@ -1,0 +1,50 @@
+.full-width {
+  width: 100%;
+}
+
+.registration-card {
+  width: 450px;
+    /* height: 40vh; */
+    /* min-width: 120px; */
+    margin: 20px auto;
+    padding: 15px;
+    margin-right: 4%;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    background-color: aliceblue;
+    
+  }
+  #login{
+    text-align: center;
+    display: block;
+  }
+  a{
+    text-decoration: none;
+
+  }
+.mat-radio-button {
+  display: block;
+  margin: 5px 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+form{
+  
+  background-image: url("../../assets/pexels-pixabay-265685.jpg");
+    background-size: 120%;
+    background-position-y: -250px;
+    padding: 5px;
+    height: 88%;
+}
